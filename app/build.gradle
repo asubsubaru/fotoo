@@ -17,15 +17,3 @@ android {
         release { minifyEnabled false }
     }
 }
-
-    // APK imzasız çıksın (tablette yüklenebilir)
-    android.applicationVariants.all { variant ->
-        variant.outputs.all {
-            outputFileName = "fotoo_v1.apk"
-        }
-    }
-}
-
-dependencies {
-    // Sadece WebView — ekstra kütüphane yok
-}
