@@ -22,7 +22,7 @@
             android:name=".MainActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:label="Fotoo"
-            android:screenOrientation="landscape"
+            android:screenOrientation="sensor"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
